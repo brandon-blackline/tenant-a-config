@@ -1,0 +1,11 @@
+apiVersion: resourcemanager.cnrm.cloud.google.com/v1beta1
+kind: Folder
+metadata:
+  labels:
+    label-one: "tenant-a"
+  name: tenant-a
+  namespace: tenant-a
+spec:
+  displayName: tenant-a
+  folderRef:
+    external: "1035593700102"
